@@ -12,8 +12,8 @@ from uuid import uuid4
 
 import jwt
 import pytest
-from allauth.socialaccount.models import SocialAccount, SocialApp
 from allauth.account.models import EmailAddress
+from allauth.socialaccount.models import SocialAccount, SocialApp
 from botocore.exceptions import ClientError, NoCredentialsError
 from conftest import (
     API_JSON_CONTENT_TYPE,
